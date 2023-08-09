@@ -1,6 +1,6 @@
 FROM python:3.11.4-bookworm
 
-RUN pip3 install fava
+RUN pip3 install fava && pip3 install git+https://github.com/andreasgerstmayr/fava-dashboards.git
 
 ENV BEANCOUNT_FILE ""
 ENV FAVA_HOST "0.0.0.0"

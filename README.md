@@ -2,6 +2,10 @@
 
 Docker image to run [Fava](https://beancount.github.io/fava/) for [Beancount](https://beancount.github.io/).
 
+## Additional Features
+
+- https://github.com/andreasgerstmayr/fava-dashboards
+
 ## Example Usage
 
 ```
