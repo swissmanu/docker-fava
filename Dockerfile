@@ -1,4 +1,4 @@
-FROM python:3.11.4-bookworm
+FROM python:3.14.2-bookworm
 
 RUN pip3 install fava && \
     pip3 install git+https://github.com/andreasgerstmayr/fava-dashboards.git && \
