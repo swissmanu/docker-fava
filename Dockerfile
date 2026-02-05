@@ -1,4 +1,4 @@
-FROM python:3.13.11-trixie
+FROM python:3.14.3-trixie
 
 RUN apt update && apt install python3-dev -y
 RUN pip3 install "tatsu-lts==5.14" && pip3 install "beancount==3.2.0" && \
